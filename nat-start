@@ -1,0 +1,5 @@
+#!/bin/sh
+dbus fire onnatstart
+sleep 5
+sh /koolshare/ss/nat-start.sh start_all
+
